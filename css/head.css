@@ -35,6 +35,8 @@ header {
     gap: 5px;
 
     transition: 0.2s ease-out;
+
+    cursor: default;
 }
 
 .bar-1, .bar-2, .bar-3 {
@@ -79,7 +81,7 @@ header {
     height: 100%;
 
     display: flex;
-    
+
     position: fixed;
 
     background: black;
