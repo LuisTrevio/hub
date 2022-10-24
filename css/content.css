@@ -185,7 +185,7 @@
     }
 }
 
-.intro h2 {
+h2 {
     font-family: 'Palanquin Dark', sans-serif;
 }
 
@@ -310,5 +310,58 @@
     
     .newest {
         border-radius: 0;
+    }
+}
+
+.intro-leng {
+    width: 100%;
+    height: 180px;
+
+    padding: 25px 25px;
+
+}
+
+@media (max-width:780px) {
+    .intro-leng {
+        padding: 25px 0 0 0;
+    }
+}
+
+.carrusel-box-lg {
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    flex-direction: column;
+    gap: 0 15px;
+
+    overflow-x: auto;
+
+    margin-top: 2px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+    padding-right: 0;
+
+    align-items: center;
+
+}
+
+.item-box {
+    width: 90px;
+    height: 100%;
+
+    background: white;
+    border-radius: 10px;
+}
+
+
+@media (max-width:780px) {
+    .carrusel-box-lg {
+        padding-left: 25px;
+        padding-right: 25px;
+        gap: 0 18px;
     }
 }
