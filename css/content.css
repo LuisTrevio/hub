@@ -142,7 +142,7 @@
     width: 100%;
     height: 410px;
 
-    padding: 25px;
+    padding: 25px 25px;
 
     animation: Smooth-ed-2 1.2s ease-out;
 }
@@ -184,7 +184,7 @@
 
 .carrusel-box {
     width: 100%;
-    height: 340px;
+    height: 350px;
 
     display: flex;
     flex-wrap: wrap;
@@ -196,6 +196,7 @@
 
     margin-top: 2px;
     padding-bottom: 10px;
+    padding-top: 10px;
 
     padding-right: 0;
 
