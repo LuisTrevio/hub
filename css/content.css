@@ -44,20 +44,6 @@
     100% {transform:scale(1);}
 }
 
-.hero-new:hover {
-    transform: scale(0.98);
-}
-
-@media (max-width:780px) {
-    .hero-new:hover {
-        transform: scale(1);
-    }
-    
-    .hero-new:active .item-hero {
-        transform: scale(0.98);
-    }
-}
-
 .item-hero {
     width: 100%;
     height: 100%;
@@ -78,6 +64,20 @@
 
     user-select: none;
     cursor: pointer;
+}
+
+.item-hero:hover {
+    transform: scale(0.98);
+}
+
+@media (max-width:780px) {
+    .item-hero:hover {
+        transform: scale(1);
+    }
+    
+    .item-hero:active .item-hero {
+        transform: scale(0.98);
+    }
 }
 
 .position-new {
