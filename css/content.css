@@ -225,7 +225,7 @@ h2 {
     background: rgb(255, 255, 255);
     box-shadow: var(--shadow-elevation-high);
 
-    border-radius: 20px;
+    border-radius: 25px;
 
     transition: 0.2s cubic-bezier(0.215, 0.610, 0.355, 1);
     cursor: pointer;
