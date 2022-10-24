@@ -75,7 +75,7 @@
         transform: scale(1);
     }
     
-    .item-hero:active .item-hero {
+    .item-hero:active {
         transform: scale(0.98);
     }
 }
