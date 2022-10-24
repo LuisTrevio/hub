@@ -63,7 +63,7 @@
     height: 100%;
 
     background: var(--demo);
-    box-shadow: var(--shadow-elevation-medium);
+    box-shadow: var(--shadow-elevation-high);
     border-radius: 30px;
 
     padding: 14px 15px;
@@ -125,6 +125,13 @@
 .item-hero:hover .new {
     background: rgb(250, 250, 250);
     color:rgb(0, 0, 0);
+}
+
+@media (max-width:780px) {
+    .new {
+        background: rgb(250, 250, 250);
+        color:rgb(0, 0, 0);
+    }
 }
 
 .title-hero {
@@ -190,7 +197,7 @@
     flex-wrap: wrap;
 
     flex-direction: column;
-    gap: 0 10px;
+    gap: 0 15px;
 
     overflow: auto;
 
@@ -207,6 +214,7 @@
     .carrusel-box {
         padding-left: 25px;
         padding-right: 25px;
+        gap: 0 15px;
     }
 }
 
@@ -214,8 +222,8 @@
     width: 400px;
     height: 100%;
 
-    background: rgb(0, 0, 0);
-    box-shadow: var(--shadow-elevation-medium);
+    background: rgb(255, 255, 255);
+    box-shadow: var(--shadow-elevation-high);
 
     border-radius: 20px;
 
