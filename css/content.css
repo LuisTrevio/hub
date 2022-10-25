@@ -214,7 +214,7 @@ h1, h2, h3 {
         padding-right: 25px;
         gap: 0 18px;
 
-        scroll-snap-type: x mandatory;
+        scroll-snap-type: x proximity;
     }
 }
 
@@ -242,7 +242,7 @@ h1, h2, h3 {
     user-select: none;
 
     scroll-snap-align: start;
-    scroll-margin: 25px;
+    scroll-margin: 0 0 0 25px;
 }
 
 .title-item-intro {
