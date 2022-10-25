@@ -86,6 +86,10 @@ button {
     overflow: hidden;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 @media (max-width:780px) {
 
 }
