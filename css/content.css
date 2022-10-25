@@ -34,6 +34,8 @@
     transform: scale(1);
 
     animation: Smooth-ed 0.5s ease-out;
+
+    display: flex;
 }
 
 @keyframes Smooth-ed {
