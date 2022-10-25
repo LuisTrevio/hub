@@ -86,10 +86,12 @@ button {
     overflow: hidden;
 }
 
-::-webkit-scrollbar {
-    display: none;
+br {
+    user-select: none;
 }
 
 @media (max-width:780px) {
-
+    ::-webkit-scrollbar {
+        display: none;
+    }
 }

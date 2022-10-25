@@ -134,6 +134,10 @@
     }
 }
 
+h1, h2, h3 {
+    font-family: 'Palanquin Dark', sans-serif;
+}
+
 .title-hero {
     color: white;
     font-family: 'Quicksand', sans-serif;
@@ -141,9 +145,7 @@
     padding-bottom: 10px;
 }
 
-.title-hero h2 {
-    font-family: 'Palanquin Dark', sans-serif;
-}
+/* Segundo Cuadro */
 
 .intro {
     width: 100%;
@@ -183,10 +185,6 @@
     .position-intro {
         padding-left: 25px;
     }
-}
-
-h2 {
-    font-family: 'Palanquin Dark', sans-serif;
 }
 
 .carrusel-box {
@@ -249,10 +247,6 @@ h2 {
     padding-bottom: 10px;
 }
 
-.title-item-intro h2 {
-    font-family: 'Palanquin Dark', sans-serif;
-}
-
 .item-intro-1:hover {
     transform: scale(0.98);
 }
@@ -287,11 +281,13 @@ h2 {
 
 .intro-about {
     width: 100%;
-    height: 600px;
+    height: 400px;
 
     padding: 25px;
 
 }
+
+/* Tercer Cuadro */
 
 .newest {
     width: 100%;
@@ -299,6 +295,21 @@ h2 {
 
     background: var(--demo);
     border-radius: 30px;
+    padding: 25px;
+
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.text-about {
+    width: 400px;
 }
 
 @media (max-width:780px) {
@@ -311,7 +322,50 @@ h2 {
     .newest {
         border-radius: 0;
     }
+
+    .text-about {
+        width: 100%;
+    }
+    
 }
+
+.link-button {
+    width: auto;
+    height: 40px;
+
+    background-color: #ffffff;
+    color: black;
+    box-shadow: var(--shadow-elevation-high);
+
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transform: scale(1);
+
+    transition: 0.2s ease-out;
+
+    cursor: pointer;
+    user-select: none;
+}
+
+.link-button:hover {
+    transform: scale(0.97);
+}
+
+@media (max-width:780px) {
+    .link-button:hover {
+        transform: scale(1);
+    }
+    
+    .link-button:active {
+        transform: scale(0.97);
+    }
+}
+
+/* Cuarto Cuadro */
 
 .intro-leng {
     width: 100%;
