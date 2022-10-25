@@ -67,6 +67,7 @@ body {
 }
 
 body {
+    overflow-x: hidden;
     /**/
     --shadow-color: 0deg 0% 47%;
   --shadow-elevation-low:
