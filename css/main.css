@@ -90,6 +90,10 @@ br {
     user-select: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 @media (max-width:780px) {
     ::-webkit-scrollbar {
         display: none;
