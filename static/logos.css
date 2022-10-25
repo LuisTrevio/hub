@@ -1,0 +1,29 @@
+.logos {
+    background-position: center;
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+}
+
+.vslogo {
+    background-image: url(vscode.svg);
+}
+
+.html {
+    background-image: url(html.svg);
+}
+
+.css {
+    background-image: url(css3.svg);
+}
+
+.js {
+    background-image: url(js.svg);
+}
+
+.py {
+    background-image: url(py.svg);
+}
+
+.sql {
+    background-image: url(sql.svg);
+}
