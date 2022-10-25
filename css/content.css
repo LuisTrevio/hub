@@ -396,11 +396,12 @@ h1, h2, h3 {
     flex-wrap: wrap;
 
     flex-direction: column;
-    gap: 0 15px;
+    gap: 0 10px;
 
     overflow-x: auto;
 
     margin-top: 2px;
+
     padding-bottom: 10px;
     padding-top: 10px;
 
@@ -462,6 +463,6 @@ h1, h2, h3 {
     .carrusel-box-lg {
         padding-left: 25px;
         padding-right: 25px;
-        gap: 0 18px;
+        gap: 0 10px;
     }
 }
