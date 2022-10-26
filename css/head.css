@@ -42,7 +42,7 @@ header {
     align-items: center;
 
     font-size: 22px;
-    padding-top: 2px;
+    padding-top: 4px;
 
     transition: 0.2s ease-out;
     user-select: none;
@@ -152,7 +152,6 @@ habra bugs
 .Menu-Full {
     display: none;
 }
-
 
 @media (max-width:780px) {
     .Menu-Full {
