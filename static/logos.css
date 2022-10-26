@@ -8,6 +8,10 @@
     background-image: url(vscode.svg);
 }
 
+.gh {
+    background-image: url(gh.svg);
+}
+
 .html {
     background-image: url(html.svg);
 }
