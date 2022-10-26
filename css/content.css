@@ -443,9 +443,11 @@ h1, h2, h3 {
 @media (max-width:780px) {
     .item-box:hover {
     background: none;
+    box-shadow: none;
     }
     .item-box:active {
         background: white;
+        box-shadow: var(--shadow-elevation-high);
     }  
 }
 
