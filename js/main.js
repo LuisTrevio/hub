@@ -8,4 +8,8 @@ function ClickMenu() {
         document.querySelectorAll('.menu-on').forEach((result) => {result.classList.toggle('Menu-Full-on');})
 
         document.querySelectorAll('.scr-fr').forEach((result) => {result.classList.toggle('scroll-frost');})
+
+        document.querySelectorAll('.smooth-menu').forEach((result) => {result.classList.toggle('menu-grid-smooth');})
+        
+        document.querySelectorAll('.smooth-credits').forEach((result) => {result.classList.toggle('credits-smooth');})
 }
