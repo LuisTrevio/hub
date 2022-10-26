@@ -15,8 +15,8 @@ header {
 
     display: flex;
 
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
     justify-content: space-between;
 
     margin-left: auto;
@@ -127,15 +127,15 @@ header {
     transform: rotate(-0.38turn);
 }
 
-.button:hover .bar-1 {
+.button:active .bar-1 {
     background: var(--header-hover);
 }
 
-.button:hover .bar-2 {
+.button:active .bar-2 {
     background: var(--header-hover);
 }
 
-.button:hover .bar-3 {
+.button:active .bar-3 {
     background: var(--header-hover);
 }
 
