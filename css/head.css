@@ -88,7 +88,7 @@ header {
     background: black;
 
     transform: translateY(-100%);
-    transition: 0.3s cubic-bezier(0.215, 0.610, 0.355, 1);
+    transition: 0.35s cubic-bezier(1, 0.04, 0.36, 1);
 
     z-index: 2;
 }
@@ -129,7 +129,7 @@ header {
 }
 
 .menu-grid-smooth {
-    animation: Smooth-menu-ed 0.752s ease-out;
+    animation: Smooth-menu-ed 0.752s ;
 }
 
 @keyframes Smooth-menu-ed {
