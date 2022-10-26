@@ -12,4 +12,6 @@ function ClickMenu() {
         document.querySelectorAll('.smooth-menu').forEach((result) => {result.classList.toggle('menu-grid-smooth');})
         
         document.querySelectorAll('.smooth-credits').forEach((result) => {result.classList.toggle('credits-smooth');})
+
+        document.querySelectorAll('.smooth-logo').forEach((result) => {result.classList.toggle('logo-on');})
 }
