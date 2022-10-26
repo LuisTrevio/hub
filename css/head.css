@@ -139,6 +139,21 @@ header {
     background: var(--header-hover);
 }
 
+
+/*
+
+Todo el contenido que esta dentro de ello solamente aparecera cuando la pantalla del telefono
+asi que, en ello no se va ver nada en monitor...
+
+habra bugs
+
+*/
+
+.Menu-Full {
+    display: none;
+}
+
+
 @media (max-width:780px) {
     .Menu-Full {
         width: 100%;
