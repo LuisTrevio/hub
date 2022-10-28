@@ -39,3 +39,15 @@
 .sql {
     background-image: url(sql.svg);
 }
+
+.twt {
+    background-image: url(twitch.svg);
+}
+
+.twtt {
+    background-image: url(twitter.svg);
+}
+
+.disc {
+    background-image: url(discord.svg);
+}

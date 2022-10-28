@@ -167,7 +167,7 @@ habra bugs
 
 */
 
-.Menu-Full {
+.Menu-Full, .redes-sociales {
     display: none;
 }
 
@@ -253,17 +253,18 @@ habra bugs
     
         padding: 30px;
     
-        text-align: center;
-    
         font-family: 'Quicksand', sans-serif;
         color:white;
     
         display: flex;
-        align-items: flex-end;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
 
         transition: 0.2s ease-out;
         opacity: 0;
+
+        text-align: center;
     }
     
     .credits-smooth {
@@ -282,6 +283,27 @@ habra bugs
         100% {
             opacity: 1;
         }
+    }
+
+    .redes-sociales {
+        width: 100%;
+        height: 50px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        gap: 10px;
+        margin-bottom: 25px;
+    }
+
+    .imp {
+        width: 50px;
+        height: 50px;
+
+        background-position: center;
+        background-size: 100% 60%;
+        background-repeat: no-repeat;
     }
     
 }
