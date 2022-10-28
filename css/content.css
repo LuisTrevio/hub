@@ -513,11 +513,8 @@ ul {
     z-index: 2;
 }
 
-.new {
+.new, .invert-new {
     width: auto;
-
-    color:#ffffff;
-    background: rgb(0, 0, 0);
 
     padding: 2px 5px;
     border-radius: 20px;
@@ -534,7 +531,17 @@ ul {
     -webkit-user-select: none;
 }
 
+.new, .invert-new {
+    color:#ffffff;
+    background: rgb(0, 0, 0);
+}
+
 .item-hero:hover .new {
+    background: rgb(250, 250, 250);
+    color:rgb(0, 0, 0);
+}
+
+.item-hero:hover .invert-new {
     background: rgb(250, 250, 250);
     color:rgb(0, 0, 0);
 }
@@ -543,6 +550,16 @@ ul {
     .new {
         background: rgb(250, 250, 250);
         color:rgb(0, 0, 0);
+    }
+
+    .invert-new {
+        color:#ffffff;
+        background: rgb(0, 0, 0);
+    }
+
+    .item-hero:hover .invert-new {
+        color:#ffffff;
+        background: rgb(0, 0, 0);
     }
 }
 
