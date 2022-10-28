@@ -50,7 +50,10 @@ header {
     padding-top: 4px;
 
     transition: 0.2s ease-out;
+    
     user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
 }
 
 @media (max-width:780px) {

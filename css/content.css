@@ -59,8 +59,10 @@
     transition: 0.2s ease-out;
 
     user-select: none;
-    cursor: pointer;
+    -moz-user-select: none;
+    -webkit-user-select: none;
 
+    cursor: pointer;
 }
 
 .item-hero:hover {
@@ -104,7 +106,8 @@
     transition: 0.2s cubic-bezier(0.215, 0.610, 0.355, 1);
 
     user-select: none;
-
+    -moz-user-select: none;
+    -webkit-user-select: none;
 }
 
 .item-hero:hover .new {
@@ -242,7 +245,10 @@ h1, h2, h3 {
     font-size: 15px;
 
     align-items: flex-end;
+
     user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
 
     scroll-snap-align: start;
     scroll-margin: 0 0 0 25px;
@@ -363,7 +369,10 @@ h1, h2, h3 {
     transition: 0.2s ease-out;
 
     cursor: pointer;
+
     user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
 
     margin-top: 10px;
 }
@@ -386,7 +395,7 @@ h1, h2, h3 {
 
 .scenario-items {
     width: 100%;
-    height: 220px;
+    height: auto;
 
     padding: 25px 25px;
 
@@ -423,13 +432,12 @@ h1, h2, h3 {
     
 }
 
-.visible-show {
-    display: none;
-}
-
-/*
 @media (max-width:780px) {
-    .carrusel-grid {
+    .carrusel-box-lg {
+        padding-left: 25px;
+        padding-right: 25px;
+        gap: 25px;
+
         height: 400px;
         
         display: grid;
@@ -442,17 +450,8 @@ h1, h2, h3 {
     
         overflow:hidden;
     }
-    
-    .scenario-grid {
-        height: auto;
-    }
-    
-    .visible-show {
-        display: flex;
-    }
 }
-*/
-/* Decision creativa */
+
 
 .item-box {
     width: 110px;
@@ -469,6 +468,10 @@ h1, h2, h3 {
     flex-direction: column;
     transition: 0.2s ease-out;
     padding: 10px;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
 }
 
 .item-box:hover {
@@ -503,14 +506,6 @@ h1, h2, h3 {
 
     text-align: center;
     font-family: 'Quicksand', sans-serif;
-}
-
-@media (max-width:780px) {
-    .carrusel-box-lg {
-        padding-left: 25px;
-        padding-right: 25px;
-        gap: 0 10px;
-    }
 }
 
 .scenario-proyects {
