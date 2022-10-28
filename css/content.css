@@ -427,6 +427,7 @@ h1, h2, h3 {
     display: none;
 }
 
+/*
 @media (max-width:780px) {
     .carrusel-grid {
         height: 400px;
@@ -450,6 +451,8 @@ h1, h2, h3 {
         display: flex;
     }
 }
+*/
+/* Decision creativa */
 
 .item-box {
     width: 110px;
