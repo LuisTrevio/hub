@@ -186,7 +186,7 @@
     height: 100%;
 
     border-radius: 30px;
-    padding: 25px;
+    padding: 30px;
 
     font-family: 'Quicksand', sans-serif;
     font-size: 15px;
@@ -210,6 +210,7 @@
 @media (max-width:780px) {
     .proyects-bg {
         background: #3a56a2;
+        padding: 25px 25px 0 25px;
     }
 }
 
@@ -408,7 +409,7 @@
 /* ARRIBA EN ABOUT */
 
 ul {
-    padding-left: 25px;
+    padding-left: 30px;
 }
 
 
@@ -565,6 +566,10 @@ ul {
 
 h1, h2, h3 {
     font-family: 'Palanquin Dark', sans-serif;
+}
+
+h1 {
+    font-size: 35px;
 }
 
 .title-hero {
