@@ -1,15 +1,12 @@
 .content-hard {
     width: 100%;
-    max-width: 1100px;
+    max-width: 1080px;
     height: 100%;
 
     margin-left: auto;
     margin-right: auto;
 
-    padding-left: 60px;
-    padding-right: 60px;
-
-    padding: 50px 0 0 0;
+    padding: 60px 0 0 0;
 
     font-size: 14px;
 
@@ -17,9 +14,8 @@
 }
 
 @media (max-width:780px) {
-    .content-hard {   
-        padding-left: 0px;
-        padding-right: 0px;
+    .content-hard {     
+        padding: 50px 0 0 0;
     }
 }
 
@@ -48,7 +44,7 @@
     width: 100%;
     height: 100%;
 
-    background: var(--demo);
+    background-image: var(--demo);
     box-shadow: var(--shadow-elevation-high);
     border-radius: 30px;
 
@@ -64,6 +60,7 @@
 
     user-select: none;
     cursor: pointer;
+
 }
 
 .item-hero:hover {
@@ -86,6 +83,8 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+
+    z-index: 2;
 }
 
 .new {
@@ -129,6 +128,8 @@ h1, h2, h3 {
     font-family: 'Quicksand', sans-serif;
 
     padding-bottom: 10px;
+
+    z-index: 2;
 }
 
 /* Segundo Cuadro */
@@ -294,23 +295,30 @@ h1, h2, h3 {
 
 }
 
-.newest {
+.about, .proyects {
     width: 100%;
     height: 100%;
 
-    background: var(--demo);
     border-radius: 30px;
     padding: 25px;
 
     font-family: 'Quicksand', sans-serif;
     font-size: 15px;
 
-    color: rgb(255, 255, 255);
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+}
+
+.about-bg {
+    background: var(--demo);
+    color: rgb(255, 255, 255);
+}
+
+.proyects-bg {
+    background: var(--demo3);
+    color: rgb(255, 255, 255);
 }
 
 .text-about {
@@ -324,7 +332,7 @@ h1, h2, h3 {
         padding: 0;
     }
     
-    .newest {
+    .about, .proyects {
         border-radius: 0;
     }
 
@@ -474,9 +482,21 @@ h1, h2, h3 {
 
 .scenario-proyects {
     width: 100%;
-    height: auto;
+    height: 440px;
 
     padding: 25px;
 
-    background: red;
+}
+
+@media (max-width:780px) {
+    .scenario-proyects {
+        height: 460px;
+        padding: 25px 0 25px 0;
+    }
+}
+
+/* ARRIBA EN ABOUT */
+
+ul {
+    padding-left: 25px;
 }
