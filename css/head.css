@@ -72,6 +72,10 @@ header {
     height: 50px;
 
     display: none;
+
+    background-position: center;
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
 }
 
 .button {
@@ -200,6 +204,8 @@ habra bugs
         justify-content:flex-start;
     
         transition: 0.2s ease-out;
+
+        opacity: 0;
     }
     
     .menu-grid-link:active {
@@ -207,7 +213,7 @@ habra bugs
     }
     
     .menu-grid-smooth {
-        animation: Smooth-menu-ed 0.752s ;
+        animation: Smooth-menu-ed 0.752s forwards;
     }
     
     @keyframes Smooth-menu-ed {
@@ -221,7 +227,10 @@ habra bugs
             transform: translateX(50px) scale(1);
         }
     
-        100% {transform:scale(1);}
+        100% {
+            opacity: 1;
+            transform:scale(1);
+        }
     }
     
     .credits {
@@ -238,10 +247,13 @@ habra bugs
         display: flex;
         align-items: flex-end;
         justify-content: center;
+
+        transition: 0.2s ease-out;
+        opacity: 0;
     }
     
     .credits-smooth {
-        animation: Smooth-credits-ed 0.752s ease-out;
+        animation: Smooth-credits-ed 0.752s ease-out forwards;
     }
     
     @keyframes Smooth-credits-ed {
@@ -253,7 +265,9 @@ habra bugs
             opacity: 0;
         }
     
-        100% {transform:scale(1);}
+        100% {
+            opacity: 1;
+        }
     }
     
 }

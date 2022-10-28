@@ -4,6 +4,10 @@
     background-repeat: no-repeat;
 }
 
+.testlogo {
+    background-image: url(repost.svg);
+}
+
 .vslogo {
     background-image: url(vscode.svg);
 }
