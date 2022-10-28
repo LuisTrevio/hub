@@ -58,6 +58,20 @@ body {
         hsl(344deg 0% 83%) 100%,
         hsl(0deg 0% 100%) 100%
       );
+    --demo4: linear-gradient(
+        45deg,
+        hsl(141deg 63% 49%) 0%,
+        hsl(159deg 100% 40%) 15%,
+        hsl(169deg 100% 39%) 28%,
+        hsl(180deg 100% 38%) 40%,
+        hsl(190deg 100% 43%) 51%,
+        hsl(197deg 100% 48%) 61%,
+        hsl(201deg 100% 50%) 71%,
+        hsl(204deg 100% 50%) 81%,
+        hsl(208deg 100% 50%) 90%,
+        hsl(213deg 100% 50%) 100%
+      );
+    
     --demo: linear-gradient(45deg, hsl(240, 100%, 50%) 0%, hsl(243deg 97% 48%) 5%, hsl(244deg 94% 46%) 10%, hsl(245deg 91% 44%) 15%, hsl(246deg 88% 41%) 20%, hsl(247deg 86% 39%) 25%, hsl(248deg 84% 37%) 30%, hsl(249deg 81% 34%) 35%, hsl(250deg 79% 32%) 40%, hsl(250deg 77% 29%) 45%, hsl(251deg 75% 27%) 50%, hsl(252deg 73% 24%) 55%, hsl(253deg 70% 22%) 60%, hsl(254deg 67% 19%) 65%, hsl(255deg 64% 17%) 70%, hsl(256deg 61% 15%) 75%, hsl(259deg 57% 12%) 80%, hsl(265deg 58% 10%) 85%, hsl(271deg 62% 7%) 90%, hsl(268deg 68% 4%) 95%, hsl(0deg 0% 0%) 100% );
     --header: rgb(255, 255, 255);
     --header-hover: rgb(207, 207, 207);
