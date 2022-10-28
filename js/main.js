@@ -15,3 +15,8 @@ function ClickMenu() {
 
         document.querySelectorAll('.smooth-logo').forEach((result) => {result.classList.toggle('logo-on');})
 }
+
+function Encoger() {
+    document.querySelectorAll('.grid').forEach((result) => {result.classList.toggle('carrusel-grid');})
+    document.querySelectorAll('.grow').forEach((result) => {result.classList.toggle('scenario-grid');})
+}
