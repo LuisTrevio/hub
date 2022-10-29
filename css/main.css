@@ -116,7 +116,9 @@ button {
 }
 
 br {
+    -webkit-user-select: none;
     user-select: none;
+    -moz-user-select: none;   
 }
 
 a {

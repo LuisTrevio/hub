@@ -1,3 +1,9 @@
+/*window.onload = function() {
+    document.querySelectorAll('.PopUpVS').forEach((result) => {result.classList.remove('PopVS')})
+    document.querySelectorAll('.PopUpGit').forEach((result) => {result.classList.remove('PopGit')})
+}
+*/
+
 function ClickMenu() {
     document.querySelectorAll('.br-1').forEach((result) => {result.classList.toggle('bar1-on');})
 
@@ -14,9 +20,4 @@ function ClickMenu() {
         document.querySelectorAll('.smooth-credits').forEach((result) => {result.classList.toggle('credits-smooth');})
 
         document.querySelectorAll('.smooth-logo').forEach((result) => {result.classList.toggle('logo-on');})
-}
-
-function Encoger() {
-    document.querySelectorAll('.grid').forEach((result) => {result.classList.toggle('carrusel-grid');})
-    document.querySelectorAll('.grow').forEach((result) => {result.classList.toggle('scenario-grid');})
 }
