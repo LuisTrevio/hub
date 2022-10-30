@@ -3,7 +3,8 @@ header {
     height: 60px;
     position: fixed;
 
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.719);
+    backdrop-filter: blur(10px);
     z-index: 3;
 }
 
