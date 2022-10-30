@@ -386,6 +386,11 @@ habra bugs
     opacity: 1;
 }
 
+.flex-pop {
+    display: flex;
+    justify-content: center;
+}
+
 .Pop-center {
     margin-bottom: 10px;
     text-align: center;
@@ -458,7 +463,7 @@ habra bugs
 
     z-index: 5;
 
-    transform: translate(25vw,0);
+    transform: translate(0,0);
     opacity: 0;
     transition: 0.175s ease-out;
 
@@ -468,49 +473,49 @@ habra bugs
 }
 
 .Pop-VS-Out {
-    transform: translate(25vw,-50px);
+    transform: translate(0,-50px);
     opacity: 1;
     pointer-events: all;
 }
 
 .Pop-Git-Out {
-    transform: translate(25vw,-50px);
+    transform: translate(0,-50px);
     opacity: 1;
     pointer-events: all;
 }
 
 .Pop-Fig-Out {
-    transform: translate(25vw,-50px);
+    transform: translate(0,-50px);
     opacity: 1;
     pointer-events: all;
 }
 
 .Pop-HTML-Out {
-    transform: translate(25vw,-50px);
+    transform: translate(0,-50px);
     opacity: 1;
     pointer-events: all;
 }
 
 .Pop-CSS-Out {
-    transform: translate(25vw,-50px);
+    transform: translate(0,-50px);
     opacity: 1;
     pointer-events: all;
 }
 
 .Pop-JS-Out {
-    transform: translate(25vw,-50px);
+    transform: translate(0,-50px);
     opacity: 1;
     pointer-events: all;
 }
 
 .Pop-PY-Out {
-    transform: translate(25vw,-50px);
+    transform: translate(0,-50px);
     opacity: 1;
     pointer-events: all;
 }
 
 .Pop-SQL-Out {
-    transform: translate(25vw,-50px);
+    transform: translate(0,-50px);
     opacity: 1;
     pointer-events: all;
 }
