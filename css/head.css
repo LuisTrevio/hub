@@ -459,46 +459,55 @@ habra bugs
 
     padding: 25px;
     flex-direction: column;
+    pointer-events: none;
 }
 
 .Pop-VS-Out {
     transform: translate(25vw,-50px);
     opacity: 1;
+    pointer-events: all;
 }
 
 .Pop-Git-Out {
     transform: translate(25vw,-50px);
     opacity: 1;
+    pointer-events: all;
 }
 
 .Pop-Fig-Out {
     transform: translate(25vw,-50px);
     opacity: 1;
+    pointer-events: all;
 }
 
 .Pop-HTML-Out {
     transform: translate(25vw,-50px);
     opacity: 1;
+    pointer-events: all;
 }
 
 .Pop-CSS-Out {
     transform: translate(25vw,-50px);
     opacity: 1;
+    pointer-events: all;
 }
 
 .Pop-JS-Out {
     transform: translate(25vw,-50px);
     opacity: 1;
+    pointer-events: all;
 }
 
 .Pop-PY-Out {
     transform: translate(25vw,-50px);
     opacity: 1;
+    pointer-events: all;
 }
 
 .Pop-SQL-Out {
     transform: translate(25vw,-50px);
     opacity: 1;
+    pointer-events: all;
 }
 
 @media (max-width:780px) {
