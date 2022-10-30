@@ -1,8 +1,3 @@
-window.onload = function() {
-    document.querySelectorAll('.Pop-Al').forEach((result) => {result.classList.add('Pop-All')})
-}
-
-
 function ClickMenu() {
     document.querySelectorAll('.br-1').forEach((result) => {result.classList.toggle('bar1-on');})
 
@@ -24,10 +19,15 @@ function ClickMenu() {
 function Pop() {
     document.querySelectorAll('.Pop-Exit').forEach((result) => {result.classList.toggle('Pop-out');})
     document.querySelectorAll('.Status-Ani').forEach((result) => {result.classList.toggle('Status-Animated');})
-    
+
     document.querySelectorAll('.Pop-VS-O').forEach((result) => {result.classList.remove('Pop-VS-Out')})
     document.querySelectorAll('.Pop-Git-O').forEach((result) => {result.classList.remove('Pop-Git-Out')})
     document.querySelectorAll('.Pop-Fig-O').forEach((result) => {result.classList.remove('Pop-Fig-Out')})
+    document.querySelectorAll('.Pop-HTML-O').forEach((result) => {result.classList.remove('Pop-HTML-Out')})
+    document.querySelectorAll('.Pop-CSS-O').forEach((result) => {result.classList.remove('Pop-CSS-Out')})
+    document.querySelectorAll('.Pop-JS-O').forEach((result) => {result.classList.remove('Pop-JS-Out')})
+    document.querySelectorAll('.Pop-PY-O').forEach((result) => {result.classList.remove('Pop-PY-Out')})
+    document.querySelectorAll('.Pop-SQL-O').forEach((result) => {result.classList.remove('Pop-SQL-Out')})
 }
 
 function PopVS() {
@@ -41,3 +41,24 @@ function PopGit() {
 function PopFig() {
     document.querySelectorAll('.Pop-Fig-O').forEach((result) => {result.classList.add('Pop-Fig-Out')})
 }
+
+function PopHTML() {
+    document.querySelectorAll('.Pop-HTML-O').forEach((result) => {result.classList.add('Pop-HTML-Out')})
+}
+
+function PopCSS() {
+    document.querySelectorAll('.Pop-CSS-O').forEach((result) => {result.classList.add('Pop-CSS-Out')})
+}
+
+function PopJS() {
+    document.querySelectorAll('.Pop-JS-O').forEach((result) => {result.classList.add('Pop-JS-Out')})
+}
+
+function PopPY() {
+    document.querySelectorAll('.Pop-PY-O').forEach((result) => {result.classList.add('Pop-PY-Out')})
+}
+
+function PopSQL() {
+    document.querySelectorAll('.Pop-SQL-O').forEach((result) => {result.classList.add('Pop-SQL-Out')})
+}
+

@@ -419,9 +419,13 @@ habra bugs
 }
 
 .St-VS {width: 75%;}
-.St-Git {width: 50%;}
-.St-Fig {width: 60%;}
-
+.St-Git {width: 44%;}
+.St-Fig {width: 65%;}
+.St-HTML {width: 90%;}
+.St-CSS {width: 65%;}
+.St-JS {width: 25%;}
+.St-PY {width: 38%;}
+.St-SQL {width: 58%;}
 
 .Status-Animated {
     animation: Status 0.3s ease-out;
@@ -432,7 +436,7 @@ habra bugs
     100% {}
 }
 
-.Pop-VS, .Pop-Git, .Pop-Fig {
+.Pop-VS, .Pop-Git, .Pop-Fig, .Pop-HTML, .Pop-CSS, .Pop-JS, .Pop-PY, .Pop-SQL {
     width: 50vw;
     height: auto;
 
@@ -472,28 +476,33 @@ habra bugs
     opacity: 1;
 }
 
+.Pop-HTML-Out {
+    transform: translate(25vw,-50px);
+    opacity: 1;
+}
+
+.Pop-CSS-Out {
+    transform: translate(25vw,-50px);
+    opacity: 1;
+}
+
+.Pop-JS-Out {
+    transform: translate(25vw,-50px);
+    opacity: 1;
+}
+
+.Pop-PY-Out {
+    transform: translate(25vw,-50px);
+    opacity: 1;
+}
+
+.Pop-SQL-Out {
+    transform: translate(25vw,-50px);
+    opacity: 1;
+}
+
 @media (max-width:780px) {
-    .Pop-VS {
-        width: 100%;
-        height: auto;
-
-        bottom: 0;
-        border-radius: 20px 20px 0 0;
-
-        transform: translate(0,300px);
-    }
-
-    .Pop-Git {
-        width: 100%;
-        height: auto;
-
-        bottom: 0;
-        border-radius: 20px 20px 0 0;
-
-        transform: translate(0,300px);
-    }
-
-    .Pop-Fig {
+    .Pop-VS, .Pop-Git, .Pop-Fig, .Pop-HTML, .Pop-CSS, .Pop-JS, .Pop-PY, .Pop-SQL {
         width: 100%;
         height: auto;
 
@@ -517,4 +526,31 @@ habra bugs
         transform: translate(0,0);
         opacity: 1;
     }
+
+    .Pop-HTML-Out {
+        transform: translate(0,0);
+        opacity: 1;
+    }
+
+    .Pop-CSS-Out {
+        transform: translate(0,0);
+        opacity: 1;
+    }
+
+    .Pop-JS-Out {
+        transform: translate(0,0);
+        opacity: 1;
+    }
+    
+    .Pop-PY-Out {
+        transform: translate(0,0);
+        opacity: 1;
+    }
+
+    .Pop-SQL-Out {
+        transform: translate(0,0);
+        opacity: 1;
+    }
+
+
 }
