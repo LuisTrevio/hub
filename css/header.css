@@ -246,6 +246,14 @@ habra bugs
             transform:scale(1);
         }
     }
+
+    .menu-delay {
+        transition-delay: 0.1s;
+    }
+
+    .menu-delay-2 {
+        transition-delay: 0.2s;
+    }
     
     .credits {
         width: 100%;

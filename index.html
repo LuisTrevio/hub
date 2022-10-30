@@ -16,6 +16,7 @@
         <link rel="stylesheet" type="text/css" href="css/header.css">
         <link rel="stylesheet" type="text/css" href="css/content.css">
         <link rel="stylesheet" type="text/css" href="static/logos.css">
+        <script defer src="js/main.js"></script>
     </head>
 
     <body class="scr-fr">
@@ -141,8 +142,8 @@
         <div class="Menu-Full menu-on">
             <div class="menu-grid">
                 <a href="#" onclick="ClickMenu()" class="menu-grid-link smooth-menu">Novedades</a>
-                <a href="#" onclick="ClickMenu()" class="menu-grid-link smooth-menu">Proyectos</a>
-                <a href="#" onclick="ClickMenu()" class="menu-grid-link smooth-menu">Acerca de</a>
+                <a href="#" onclick="ClickMenu()" class="menu-grid-link smooth-menu menu-delay">Proyectos</a>
+                <a href="#" onclick="ClickMenu()" class="menu-grid-link smooth-menu menu-delay-2">Acerca de</a>
             </div>
             <div class="credits smooth-credits"> 
 
@@ -159,7 +160,7 @@
         <div class="content-hard">
         <!-- -->
 
-            <div class="scenario-news">
+            <div class="scenario-news hidden">
                 
                 <div class="position-intro">
                     <h2>Ultimas novedades</h2><a href="#" class="link"><b>Ver todo</b></a>
@@ -198,7 +199,7 @@
                 </div>
             </div>
 
-            <div class="scenario-about">
+            <div class="scenario-about hidden">
                 <div class="about about-bg">
                     <div class="text-about">
                         <h1>¡Hola!, ¿que tranza?</h1><br>
@@ -208,7 +209,7 @@
                 </div>
             </div>
 
-            <div class="scenario-items grow">
+            <div class="scenario-items grow hidden">
                 <div class="position-intro">
                     <h2>Items de programacion</h2> <a class="link"><b>Click items</b></a>
                 </div>
@@ -248,7 +249,7 @@
                 </div>
             </div>
 
-            <div class="scenario-proyects">
+            <div class="scenario-proyects hidden">
                 <div class="proyects proyects-bg">
                     <div class="text-about">
                         <h1>Proyectos</h1><br>
@@ -265,7 +266,7 @@
                 </div>
             </div>
 
-            <div class="hero-new">
+            <div class="hero-new hidden">
                 <div class="position-hero">
                     <h2>Proyectos recientes</h2>
                 </div>
@@ -314,7 +315,6 @@
         <!-- -->
         </div>
 
-        <script src="js/main.js"></script>
     </body>
     
 </html>
