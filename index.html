@@ -20,9 +20,44 @@
 
     <body class="scr-fr">
 
-    <div class="logointro">
-        <b><i>Waltz</i></b>
-    </div>
+        <div class="logointro">
+            <b><i>Waltz</i></b>
+        </div>
+        <!-- Fase de pruebas -->
+        <div onclick="Pop()" class="Pop Pop-Exit">
+        
+        </div>
+
+        <div class="Pop-VS Pop-VS-O">
+            <div class="Pop-center"><h2>Visual Studios Code</h2></div>
+            <div class="Pop-text">
+                Es un editor muy popular, entre Vim y Sublime Text elegi a VS Code por la 
+                flexibilidad a la hora de trabajar en cualquier dispositivo usando la web de ella.
+            </div>
+            <div class="Pop-center-text">Habilidad</div>
+            <div class="Ability"><div class="Status St-VS Status-Ani"></div></div>
+        </div>
+
+        <div class="Pop-Git Pop-Git-O">
+            <div class="Pop-center"><h2>Github</h2></div>
+            <div class="Pop-text">
+                Es un editor muy popular, entre Vim y Sublime Text elegi a VS Code por la 
+                flexibilidad a la hora de trabajar en cualquier dispositivo usando la web de ella.
+            </div>
+            <div class="Pop-center-text">Habilidad</div>
+            <div class="Ability"><div class="Status St-Git Status-Ani"></div></div>
+        </div>
+
+        <div class="Pop-Fig Pop-Fig-O">
+            <div class="Pop-center"><h2>Figma</h2></div>
+            <div class="Pop-text">
+                Es un editor muy popular, entre Vim y Sublime Text elegi a VS Code por la 
+                flexibilidad a la hora de trabajar en cualquier dispositivo usando la web de ella.
+            </div>
+            <div class="Pop-center-text">Habilidad</div>
+            <div class="Ability"><div class="Status St-Fig Status-Ani"></div></div>
+        </div>
+        <!-- / / / / / / / / / / / / / / -->
     
         <header>
             <div class="header-max">
@@ -123,15 +158,15 @@
                     <h2>Items de programacion</h2>
                 </div>
                 <div class="carrusel-box-lg">
-                    <div class="item-box">
+                    <div onclick="Pop(), PopVS()" class="item-box">
                         <div class="logo-item-box logos vslogo"></div>
                         <div class="text-item-box"><b>Visual Studio Code</b></div>
                     </div>
-                    <div class="item-box">
+                    <div onclick="Pop(), PopGit()" class="item-box">
                         <div class="logo-item-box logos gh"></div>
                         <div class="text-item-box"><b>Github</b></div>
                     </div>
-                    <div class="item-box">
+                    <div onclick="Pop(), PopFig()" class="item-box">
                         <div class="logo-item-box logos fig"></div>
                         <div class="text-item-box"><b>Figma</b></div>
                     </div>

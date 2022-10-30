@@ -1,8 +1,7 @@
-/*window.onload = function() {
-    document.querySelectorAll('.PopUpVS').forEach((result) => {result.classList.remove('PopVS')})
-    document.querySelectorAll('.PopUpGit').forEach((result) => {result.classList.remove('PopGit')})
+window.onload = function() {
+    document.querySelectorAll('.Pop-Al').forEach((result) => {result.classList.add('Pop-All')})
 }
-*/
+
 
 function ClickMenu() {
     document.querySelectorAll('.br-1').forEach((result) => {result.classList.toggle('bar1-on');})
@@ -20,4 +19,25 @@ function ClickMenu() {
         document.querySelectorAll('.smooth-credits').forEach((result) => {result.classList.toggle('credits-smooth');})
 
         document.querySelectorAll('.smooth-logo').forEach((result) => {result.classList.toggle('logo-on');})
+}
+
+function Pop() {
+    document.querySelectorAll('.Pop-Exit').forEach((result) => {result.classList.toggle('Pop-out');})
+    document.querySelectorAll('.Status-Ani').forEach((result) => {result.classList.toggle('Status-Animated');})
+    
+    document.querySelectorAll('.Pop-VS-O').forEach((result) => {result.classList.remove('Pop-VS-Out')})
+    document.querySelectorAll('.Pop-Git-O').forEach((result) => {result.classList.remove('Pop-Git-Out')})
+    document.querySelectorAll('.Pop-Fig-O').forEach((result) => {result.classList.remove('Pop-Fig-Out')})
+}
+
+function PopVS() {
+    document.querySelectorAll('.Pop-VS-O').forEach((result) => {result.classList.add('Pop-VS-Out')})
+}
+
+function PopGit() {
+    document.querySelectorAll('.Pop-Git-O').forEach((result) => {result.classList.add('Pop-Git-Out')})
+}
+
+function PopFig() {
+    document.querySelectorAll('.Pop-Fig-O').forEach((result) => {result.classList.add('Pop-Fig-Out')})
 }
