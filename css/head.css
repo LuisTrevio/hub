@@ -508,6 +508,7 @@ habra bugs
 
         bottom: 0;
         border-radius: 20px 20px 0 0;
+        padding: 25px 25px 50px 25px;
 
         transform: translate(0,300px);
     }
