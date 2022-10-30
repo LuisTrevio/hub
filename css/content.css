@@ -216,7 +216,7 @@
 
 @media (max-width:780px) {
     .proyects-bg {
-        background: #3a56a2;
+        background: var(--proyect);
         padding: 25px 25px 0 25px;
     }
 }
@@ -495,7 +495,7 @@ ul {
 
 @media (max-width:780px) {
     .hero-new {
-        background: #3a56a2;
+        background: var(--proyect);
         padding: 0 25px 25px 25px;
     }
 
