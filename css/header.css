@@ -247,14 +247,6 @@ habra bugs
             transform:scale(1);
         }
     }
-
-    .menu-delay {
-        transition-delay: 0.1s;
-    }
-
-    .menu-delay-2 {
-        transition-delay: 0.2s;
-    }
     
     .credits {
         width: 100%;
@@ -407,7 +399,7 @@ habra bugs
 
 .Pop-text {
     font-family: 'Quicksand', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .Pop-center-text {
