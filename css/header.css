@@ -443,6 +443,7 @@ habra bugs
     animation: Status 0.3s ease-out;
 }
 
+
 @keyframes Status {
     0% { width: 0%;}
     100% {}
@@ -455,7 +456,7 @@ habra bugs
     margin-left: auto;
     margin-right: auto;
 
-    background-color: azure;
+    background-color: rgb(255, 245, 239);
 
     display: flex;
     position: fixed;
