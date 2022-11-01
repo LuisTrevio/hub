@@ -564,9 +564,6 @@ habra bugs
 .bg-p3 {background: var(--demo4); color: rgb(5, 5, 5);}
 
 .bg-add {
-    background: rgba(0, 0, 0, 0.171);
-    backdrop-filter: blur(10px);
-    
     width: 100%;
     height: auto;
     
