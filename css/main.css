@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 /*
 font-family: 'Palanquin Dark', sans-serif;
@@ -85,7 +86,7 @@ body {
 }
 
 ::selection {
-    background-color: #0000003b;
+    background-color: #1a69e07c;
 }
 
 body {

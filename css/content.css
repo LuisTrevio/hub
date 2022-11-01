@@ -234,6 +234,7 @@
     
     .about, .proyects {
         border-radius: 0;
+        padding: 25px;
     }
 
     .text-about {
@@ -243,8 +244,9 @@
 }
 
 .link-button {
-    width: auto;
-    height: 40px;
+    width: fit-content;
+    padding: 10px 20px;
+    height: auto;
 
     background-color: #ffffff;
     color: black;
@@ -275,6 +277,7 @@
 }
 
 @media (max-width:780px) {
+    
     .link-button:hover {
         transform: scale(1);
     }
@@ -338,6 +341,13 @@
 
     gap: 0;
     
+}
+
+@media (max-width:360px) {
+    .carrusel-box-lg {
+        grid-template-columns: 1fr 1fr;
+        height: 530px;
+    }
 }
 
 .item-box {
@@ -581,7 +591,7 @@ ul {
 }
 
 h1, h2, h3 {
-    font-family: 'Palanquin Dark', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1 {

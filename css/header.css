@@ -475,49 +475,7 @@ habra bugs
     pointer-events: none;
 }
 
-.Pop-VS-Out {
-    transform: translate(0,-50px);
-    opacity: 1;
-    pointer-events: all;
-}
-
-.Pop-Git-Out {
-    transform: translate(0,-50px);
-    opacity: 1;
-    pointer-events: all;
-}
-
-.Pop-Fig-Out {
-    transform: translate(0,-50px);
-    opacity: 1;
-    pointer-events: all;
-}
-
-.Pop-HTML-Out {
-    transform: translate(0,-50px);
-    opacity: 1;
-    pointer-events: all;
-}
-
-.Pop-CSS-Out {
-    transform: translate(0,-50px);
-    opacity: 1;
-    pointer-events: all;
-}
-
-.Pop-JS-Out {
-    transform: translate(0,-50px);
-    opacity: 1;
-    pointer-events: all;
-}
-
-.Pop-PY-Out {
-    transform: translate(0,-50px);
-    opacity: 1;
-    pointer-events: all;
-}
-
-.Pop-SQL-Out {
+.Pop-VS-Out, .Pop-Git-Out, .Pop-Fig-Out, .Pop-HTML-Out, .Pop-CSS-Out, .Pop-JS-Out, .Pop-PY-Out, .Pop-SQL-Out {
     transform: translate(0,-50px);
     opacity: 1;
     pointer-events: all;
@@ -535,45 +493,166 @@ habra bugs
         transform: translate(0,300px);
     }
 
-    .Pop-VS-Out {
+    .Pop-VS-Out, .Pop-Git-Out, .Pop-Fig-Out, .Pop-HTML-Out, .Pop-CSS-Out, .Pop-JS-Out, .Pop-PY-Out, .Pop-SQL-Out {
         transform: translate(0,0);
         opacity: 1;
+    }
+
+}
+
+.Pop-Product-1, .Pop-Product-2, .Pop-Product-3 {
+    width: 50vw;
+    height: 50vh;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: rgb(255, 245, 239);
+
+    display: flex;
+    position: fixed;
+
+    bottom: 0;
+    border-radius: 20px 20px 0 0;
+
+    z-index: 5;
+
+    transform: translate(0,80px);
+    opacity: 0;
+    transition: 0.175s ease-out;
+
+    padding: 0;
+    flex-direction:column-reverse;
+    pointer-events: none;
+}
+
+@media (min-height:1180px) {
+    .Pop-Product-1 {
+        height: 30vh;
+    }
+}
+
+.Pop-Product-1-Out,  .Pop-Product-2-Out, .Pop-Product-3-Out {
+    transform: translate(0,0);
+    opacity: 1;
+    pointer-events: all;
+}
+
+@media (max-width:780px) {
+    .Pop-Product-1, .Pop-Product-2, .Pop-Product-3 {
+        width: 100%;
+        height: auto;
+        padding-top: 100px;
+
+        bottom: 0;
+        border-radius: 20px 20px 0 0;
+
+        transform: translate(0,300px);
+    }
+
+    .Pop-Product-1-Out, .Pop-Product-2-Out, .Pop-Product-3-Out {
+        transform: translate(0,0);
+        opacity: 1;
+    }
+
+}
+
+.bg-p1 {background: var(--demo); color: white;}
+
+.bg-p2 {background: var(--demo2); color: rgb(0, 0, 0);}
+
+.bg-p3 {background: var(--demo4); color: rgb(5, 5, 5);}
+
+.bg-add {
+    background: rgba(0, 0, 0, 0.171);
+    backdrop-filter: blur(10px);
+    
+    width: 100%;
+    height: auto;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 25px;
+}
+
+@media (max-width:780px) {
+    .bg-add {
+        padding: 25px 25px 50px 25px;
+    }
+}
+
+.position-new-p {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+    gap: 0 5px;
+
+    z-index: 2;
+    margin-bottom: 10px;
+}
+
+.button-center {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.button-product {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+
+    background: white;
+    color: black;
+    padding: 10px 20px;
+
+    border-radius: 30px;
+
+    width: fit-content;
+
+    transform: scale(1);
+
+    transition: 0.3s cubic-bezier(0.215, 0.610, 0.355, 1);
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.svg-text {
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.button-product:hover {
+    transform: scale(0.97);
+}
+
+@media (max-width:780px) {
+
+    .button-product {
+        width: auto;
+    }
+
+    .button-product:hover {
+        transform: scale(1);
     }
     
-    .Pop-Git-Out {
-        transform: translate(0,0);
-        opacity: 1;
+    .button-product:active {
+        transform: scale(0.97);
     }
+}
 
-    .Pop-Fig-Out {
-        transform: translate(0,0);
-        opacity: 1;
+@media (max-width:325px) {
+    .button-center {
+        flex-direction: column;
     }
-
-    .Pop-HTML-Out {
-        transform: translate(0,0);
-        opacity: 1;
-    }
-
-    .Pop-CSS-Out {
-        transform: translate(0,0);
-        opacity: 1;
-    }
-
-    .Pop-JS-Out {
-        transform: translate(0,0);
-        opacity: 1;
-    }
-    
-    .Pop-PY-Out {
-        transform: translate(0,0);
-        opacity: 1;
-    }
-
-    .Pop-SQL-Out {
-        transform: translate(0,0);
-        opacity: 1;
-    }
-
-
 }
