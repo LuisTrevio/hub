@@ -527,7 +527,7 @@ habra bugs
 }
 
 @media (min-height:1180px) {
-    .Pop-Product-1 {
+    .Pop-Product-1, .Pop-Product-2, .Pop-Product-3 {
         height: 30vh;
     }
 }
