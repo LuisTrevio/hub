@@ -542,8 +542,6 @@ ul {
     }
 
     .flex-new {flex-direction: column;}
-
-    .item-hero {box-shadow: none;}
     
     .item-hero:hover {transform: scale(1);}
     
