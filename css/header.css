@@ -513,11 +513,11 @@ habra bugs
     position: fixed;
 
     bottom: 0;
-    border-radius: 20px 20px 0 0;
+    border-radius: 20px 20px;
 
     z-index: 5;
 
-    transform: translate(0,80px);
+    transform: translate(0,-80px);
     opacity: 0;
     transition: 0.175s ease-out;
 
@@ -533,7 +533,7 @@ habra bugs
 }
 
 .Pop-Product-1-Out,  .Pop-Product-2-Out, .Pop-Product-3-Out {
-    transform: translate(0,0);
+    transform: translate(0,-25vh);
     opacity: 1;
     pointer-events: all;
 }
