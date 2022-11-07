@@ -128,22 +128,22 @@ header {
     border-radius: 20px;
 
     background: var(--menu-btn);
-    transition: 452ms ease-out;
+    transition: 200ms ease-out;
     transform: scale(1);
 }
 
 .bar1-on {
     position: fixed;
-    transform: rotate(0.38turn);
+    transform: rotate(-46deg);
 }
 
 .bar2-on {
-    transform: scale(0,0);
+    opacity: 0;
 }
 
 .bar3-on {
     position: fixed;
-    transform: rotate(-0.38turn);
+    transform: rotate(44deg);
 }
 
 .button:active .bar-1 {

@@ -490,6 +490,7 @@ ul {
 
 .box-hero {
     width: 100%;
+    height: auto;
 }/* Una variacion que impide la transicion */
 
 .item-hero {
@@ -553,9 +554,9 @@ ul {
     
     .item-hero:active {transform: scale(0.98);}
 
-    .box-hero:nth-child(2) {transition-delay: 0;}
+    .box-hero:nth-child(2) {transition-delay: 10ms !important;}
     
-    .box-hero:nth-child(3) {transition-delay: 0;}
+    .box-hero:nth-child(3) {transition-delay: 10ms !important;}
 }
 
 .position-new {
