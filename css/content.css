@@ -70,7 +70,7 @@
     text-decoration: none;
     font-family: 'Quicksand', sans-serif;
 
-    color: rgb(19, 121, 216);
+    color: var(--nucleo);
 
     display: flex;
     align-items: center;
@@ -150,7 +150,7 @@
 }
 
 .title-item-intro {
-    color: rgb(0, 0, 0);
+    color: var(--black);
     font-family: 'Quicksand', sans-serif;
 
     padding-bottom: 10px;
@@ -178,15 +178,15 @@
 
 .theme-1 {background: var(--demo);}
 
-.theme-1-text {color: rgb(255, 255, 255);}
+.theme-1-text {color: var(--white)}
 
 .theme-2 {background: var(--demo2);}
 
-.theme-2-text {color: rgb(24, 24, 24);}
+.theme-2-text {color: var(--black)}
 
 .theme-3 {background: var(--demo3);}
 
-.theme-3-text {color: rgb(255, 255, 255);}
+.theme-3-text {color: var(--white)}
 
 /* Tercer Cuadro */
 
@@ -216,12 +216,12 @@
 
 .about-bg {
     background: var(--demo);
-    color: rgb(255, 255, 255);
+    color: var(--white);
 }
 
 .proyects-bg {
     background: var(--proyect-1);
-    color: rgb(5, 5, 5);
+    color: var(--black);
 }
 
 .proyects {
@@ -266,8 +266,8 @@
     padding: 10px 20px;
     height: auto;
 
-    background-color: #ffffff;
-    color: black;
+    background-color: var(--button);
+    color: var(--black);
     box-shadow: var(--shadow-elevation-high);
     font-family: 'Quicksand', sans-serif;
 
@@ -358,7 +358,7 @@
     grid-template-columns: 1fr 1fr 1fr;
 
     gap: 0;
-    
+    transition-delay: 300ms;
 }
 
 @media (max-width:360px) {
@@ -392,12 +392,12 @@
 }
 
 .item-box:hover {
-    background: white;
+    background: var(--hover);
     box-shadow: var(--shadow-elevation-high);
 }
 
 .item-box:active {
-    background: white;
+    background: var(--hover);
     box-shadow: var(--shadow-elevation-high);
 }
 
@@ -407,7 +407,7 @@
     box-shadow: none;
     }
     .item-box:active {
-        background: white;
+        background: var(--hover);
         box-shadow: var(--shadow-elevation-high);
     }  
 }
@@ -485,8 +485,12 @@ ul {
     padding-left: 0;
     padding-bottom: 15px;
 
-    color: #000000;
+    color: var(--black);
 }
+
+.box-hero {
+    width: 100%;
+}/* Una variacion que impide la transicion */
 
 .item-hero {
     width: 100%;
@@ -510,14 +514,14 @@ ul {
     -webkit-user-select: none;
 
     cursor: pointer;
-    color: white;
+    color: var(--white);
 }
 
-.item-hero:nth-child(2) {
+.box-hero:nth-child(2) {
     transition-delay: 300ms;
 }
 
-.item-hero:nth-child(3) {
+.box-hero:nth-child(3) {
     transition-delay: 600ms;
 }
 
@@ -525,15 +529,17 @@ ul {
 
 .hero-bg-2 {
     background-image: var(--demo2);
-    color: #0b0b0b;
+    color: var(--black);
 }
 
 .hero-bg-3 {
     background-image: var(--demo4);
-    color: #0b0b0b;
+    color: var(--black);
 }
 
-.item-hero:hover {transform: scale(0.98);}
+.item-hero:hover {
+    transform: scale(0.98);
+}
 
 @media (max-width:780px) {
     .hero-new {
@@ -546,6 +552,10 @@ ul {
     .item-hero:hover {transform: scale(1);}
     
     .item-hero:active {transform: scale(0.98);}
+
+    .box-hero:nth-child(2) {transition-delay: 0;}
+    
+    .box-hero:nth-child(3) {transition-delay: 0;}
 }
 
 .position-new {
@@ -579,34 +589,34 @@ ul {
 }
 
 .new, .invert-new {
-    color:#ffffff;
-    background: rgb(0, 0, 0);
+    color: var(--white);
+    background: var(--black);
 }
 
 .item-hero:hover .new {
-    background: rgb(250, 250, 250);
-    color:rgb(0, 0, 0);
+    background: var(--bg);
+    color:var(--black);
 }
 
 .item-hero:hover .invert-new {
-    background: rgb(250, 250, 250);
-    color:rgb(0, 0, 0);
+    background: var(--bg);
+    color:var(--black);
 }
 
 @media (max-width:780px) {
     .new {
-        background: rgb(250, 250, 250);
-        color:rgb(0, 0, 0);
+        background: var(--bg);
+        color:var(--black);
     }
 
     .invert-new {
-        color:#ffffff;
-        background: rgb(0, 0, 0);
+        color:var(--bg);
+        background: var(--black);
     }
 
     .item-hero:hover .invert-new {
-        color:#ffffff;
-        background: rgb(0, 0, 0);
+        color:var(--bg);
+        background: var(--black);
     }
 }
 
@@ -641,7 +651,7 @@ h1 {
 
 .contact-bg {
     background: var(--contact);
-    color: rgb(255, 255, 255);
+    color: var(--white);
 }
 
 .contact {
@@ -695,7 +705,7 @@ h1 {
 @media (max-width:780px) {
     .contact-bg {
         padding: 0 25px 0 25px;
-        color: rgb(0, 0, 0);
+        color: var(--black);
         background: none;
     }
 
@@ -724,9 +734,9 @@ footer {
     max-width: 1080px;
     height: 100%;
 
-    background-color: #000000;
+    background-color: var(--black);
     border-radius: 25px 25px 0 0;
-    color: white;
+    color: var(--white);
 
     padding: 25px 25px 50px 25px;
     font-family: 'Quicksand', sans-serif;

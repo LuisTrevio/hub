@@ -64,11 +64,11 @@ header {
 }
 
 .logo:hover {
-    color: rgb(255, 255, 255);
+    color: var(--white);
 }
 
 .logo-on {
-    color: rgb(255, 255, 255);
+    color: var(--white);
 }
 
 @media (max-width:780px) {
@@ -78,7 +78,7 @@ header {
     }
 
     .logo:active {
-        color: white;
+        color: var(--white);
     }
 }
 
@@ -127,8 +127,8 @@ header {
 
     border-radius: 20px;
 
-    background: rgb(255, 255, 255);
-    transition: 0.2s ease-out;
+    background: var(--menu-btn);
+    transition: 452ms ease-out;
     transform: scale(1);
 }
 
@@ -157,16 +157,6 @@ header {
 .button:active .bar-3 {
     background: var(--header-hover);
 }
-
-
-/*
-
-Todo el contenido que esta dentro de ello solamente aparecera cuando la pantalla del telefono
-asi que, en ello no se va ver nada en monitor...
-
-habra bugs
-
-*/
 
 .Menu-Full, .redes-sociales {
     display: none;

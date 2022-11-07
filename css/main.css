@@ -32,6 +32,19 @@ body {
     --bg: rgb(201, 201, 201);
     --bg-bar: rgb(235, 235, 235);
 
+    --menu-btn: rgb(235, 235, 235);
+    --hover: rgb(235, 235, 235);
+
+    /* Nucleo */
+    --nucleo: rgb(19, 121, 216);
+
+    /* Text */
+    --black: rgb(0, 0, 0);
+    --white:rgb(255, 255, 255);
+
+    /* Button */
+    --button: rgba(255, 255, 255, 0.863);
+
     --demo2: linear-gradient(
         45deg,
         hsl(0deg 0% 94%) 0%,
@@ -177,7 +190,7 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-thumb {
     border-radius: 8px;
-    border: 1px solid var(--bg);
+    border: 1px solid var(--bg-bar);
     background: var(--bar);
 }
 
@@ -191,7 +204,7 @@ body::-webkit-scrollbar-track {
 .carrusel-box::-webkit-scrollbar {
     height: 12px;
     border-radius: 8px;
-    background: var(--bg-bar)
+    background: var(--bg);
 }
 
 .carrusel-box::-webkit-scrollbar-thumb {
@@ -204,6 +217,18 @@ body::-webkit-scrollbar-track {
     border-radius: 5px;
     background: none;
 }
+
+body::-webkit-scrollbar:hover {
+    width: 11px;
+    background: var(--bg-bar)
+}
+
+.carrusel-box::-webkit-scrollbar:hover {
+    height: 12px;
+    border-radius: 8px;
+    background: var(--bg-bar)
+}
+
 
 @media (max-width:780px) {
 
