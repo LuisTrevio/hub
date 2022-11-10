@@ -190,7 +190,7 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-thumb {
     border-radius: 8px;
-    border: 1px solid var(--bg-bar);
+    border: 1px solid var(--bg);
     background: var(--bar);
 }
 
@@ -209,7 +209,7 @@ body::-webkit-scrollbar-track {
 
 .carrusel-box::-webkit-scrollbar-thumb {
     border-radius: 8px;
-    border: 1px solid var(--bg-bar);
+    border: 1px solid var(--bg);
     background: var(--bar);
 }
 
@@ -219,16 +219,20 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar:hover {
-    width: 11px;
     background: var(--bg-bar)
 }
 
 .carrusel-box::-webkit-scrollbar:hover {
-    height: 12px;
-    border-radius: 8px;
     background: var(--bg-bar)
 }
 
+body::-webkit-scrollbar:hover body::-webkit-scrollbar-thumb {
+    border: 1px solid var(--bg-bar);
+}
+
+.carrusel-box::-webkit-scrollbar:hover .carrusel-box::-webkit-scrollbar-thumb {
+    border: 1px solid var(--bg-bar);
+}
 
 @media (max-width:780px) {
 
