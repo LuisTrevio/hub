@@ -477,7 +477,7 @@ header {
         height: auto;
 
         bottom: 0;
-        border-radius: 20px 20px 0 0;
+        border-radius: 25px 25px 0 0;
         padding: 25px 25px 50px 25px;
 
         transform: translate(0,300px);
@@ -535,7 +535,7 @@ header {
         padding-top: 100px;
 
         bottom: 0;
-        border-radius: 20px 20px 0 0;
+        border-radius: 25px 25px 0 0;
 
         transform: translate(0,300px);
     }
@@ -589,6 +589,12 @@ header {
     margin-top: 20px;
 }
 
+.button-full {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+
 .button-product {
     font-family: 'Quicksand', sans-serif;
     font-size: 15px;
@@ -620,11 +626,18 @@ header {
 .inv-svg {filter: invert(1);}
 
 .button-product:hover {
-    background-color: rgba(255, 255, 255, 0.514);
+    background-color: rgba(255, 255, 255, 0.267);
 }
 
 .button-product:active {
     transform: scale(0.97);
+}
+
+.pop-bg {
+    background: var(--black);
+    color:var(--white);
+    user-select: none;
+    cursor: pointer;
 }
 
 @media (max-width:780px) {
