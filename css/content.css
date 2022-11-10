@@ -72,11 +72,12 @@
 
     color: var(--nucleo);
 
-    display: flex;
+    display: inline-flex;
     align-items: center;
 
     cursor: pointer;
 }
+
 
 @media (max-width:780px) {
     .scenario-news {
