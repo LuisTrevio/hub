@@ -434,7 +434,6 @@ header {
     animation: Status 0.3s ease-out;
 }
 
-
 @keyframes Status {
     0% { width: 0%;}
     100% {}
@@ -594,8 +593,6 @@ header {
     font-family: 'Quicksand', sans-serif;
     font-size: 15px;
 
-    background: white;
-    color: black;
     padding: 10px 20px;
 
     border-radius: 30px;
@@ -620,7 +617,13 @@ header {
     background-repeat: no-repeat;
 }
 
+.inv-svg {filter: invert(1);}
+
 .button-product:hover {
+    background-color: rgba(255, 255, 255, 0.514);
+}
+
+.button-product:active {
     transform: scale(0.97);
 }
 
@@ -629,14 +632,7 @@ header {
     .button-product {
         width: auto;
     }
-
-    .button-product:hover {
-        transform: scale(1);
-    }
     
-    .button-product:active {
-        transform: scale(0.97);
-    }
 }
 
 @media (max-width:325px) {

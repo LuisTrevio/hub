@@ -266,9 +266,6 @@
     padding: 10px 20px;
     height: auto;
 
-    background-color: var(--button);
-    color: var(--black);
-    box-shadow: var(--shadow-elevation-high);
     font-family: 'Quicksand', sans-serif;
 
     border-radius: 30px;
@@ -291,18 +288,31 @@
 }
 
 .link-button:hover {
+    background-color: rgba(255, 255, 255, 0.514);
+}
+
+.link-button:active {
     transform: scale(0.97);
 }
 
-@media (max-width:780px) {
-    
-    .link-button:hover {
-        transform: scale(1);
-    }
-    
-    .link-button:active {
-        transform: scale(0.97);
-    }
+.mkt-bg {
+    background: #4120f5;
+    color: var(--white);
+}
+
+.pro-bg {
+    background: #00e1ff;
+    color: var(--black);
+}
+
+.dk-bg {
+    background: var(--white);
+    color: var(--black);
+}
+
+.wtz-bg {
+    background: #00fbd8;
+    color: var(--black);
 }
 
 /* Tercer escenario */
