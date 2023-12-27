@@ -24,6 +24,11 @@ header {
     margin-right: auto;
 }
 
+.button-melbourne {
+    display: none;
+}
+
+
 @media (max-width:780px) {
     header {
         height: 50px;
@@ -59,8 +64,9 @@ header {
 
 @media (max-width:780px) {
     .logo {     
-        height: 50px;
+        display: none;
     }
+
 }
 
 .logo:hover {
@@ -82,6 +88,145 @@ header {
     }
 }
 
+@media (max-width:780px) {
+    header {
+        background-color: rgba(0, 0, 0, 0);
+        backdrop-filter: blur(0px);
+    }
+
+    .header-max {   
+        padding-left: 0px;
+        padding-right: 0px;
+        background-color: none;
+    }
+
+    .button-melbourne {
+        display: flex;
+        width: 50px;
+        height: 50px;
+
+        border-radius: 60px;
+        background-color: rgba(14, 14, 14, 0.596);
+
+        margin: 10px;
+        gap: 0px;
+        padding: 5px;
+
+        transition: 0.2s ease-out;
+    }
+
+    .active {
+        width: 95px;
+        gap: 5px;
+    }
+
+    .delta-a {
+        width: 40px;
+        height: 40px;
+        border-radius: 60px;
+        transition: 0.2s ease-out;
+
+        pointer-events: all;
+    }
+
+    .delta-b {
+        width: 0px;
+        height: 0px;
+
+        transition: 0.2s ease-out;
+        transform: translate(-20px, 20px);
+
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .resolt {
+        width: 40px;
+        height: 40px;
+        border-radius: 60px;
+        opacity: 1;
+
+        pointer-events: all;
+
+        transform: translate(0 , 0);
+    }
+
+    .delta-a:active {
+        background-color: rgba(22, 22, 22, 0.623);
+    }
+
+    .delta-b:active {
+        background-color: rgba(22, 22, 22, 0.623);
+    }
+
+    .button-account {
+        display: flex;
+        width: 50px;
+        height: 50px;
+
+        border-radius: 60px;
+        background-color: rgba(14, 14, 14, 0.596);
+
+        margin: 10px;
+        gap: 5px;
+        padding: 5px;
+    }
+
+    .button {
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+
+    }
+
+    .bar-1, .bar-2, .bar-3 {
+        width: 20px;
+        height: 2px;
+
+        border-radius: 20px;
+
+        background: rgb(255, 255, 255);
+        transition: 200ms ease-out;
+        transform: scale(1);
+    }
+
+    .bar1-on {
+        position: fixed;
+        transform: rotate(-46deg);
+    }
+
+    .bar2-on {
+        opacity: 0;
+    }
+
+    .bar3-on {
+        position: fixed;
+        transform: rotate(44deg);
+    }
+
+    .logo-w  {
+            width: 100%;
+            height: 100%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            user-select: none;
+            font-family: Josefin Sans,sans-serif;
+            font-size: 22px;
+            color: white;
+
+            padding: 4px 0 0 0;
+    }
+}
+
 .git {
     width: 50px;
     height: 50px;
@@ -91,59 +236,6 @@ header {
     background-position: center;
     background-size: 100% 40%;
     background-repeat: no-repeat;
-}
-
-.button {
-    width: 50px;
-    height: 50px;
-
-    cursor: pointer;
-
-    display: none;
-    
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 5px;
-
-    transition: 0.2s ease-out;
-
-    cursor: default;
-}
-
-@media (max-width:780px) {
-    .button {
-        display: flex;
-    }
-
-    .git {
-        display: block;
-    }
-}
-
-.bar-1, .bar-2, .bar-3 {
-    width: 23px;
-    height: 1px;
-
-    border-radius: 20px;
-
-    background: var(--menu-btn);
-    transition: 200ms ease-out;
-    transform: scale(1);
-}
-
-.bar1-on {
-    position: fixed;
-    transform: rotate(-46deg);
-}
-
-.bar2-on {
-    opacity: 0;
-}
-
-.bar3-on {
-    position: fixed;
-    transform: rotate(44deg);
 }
 
 .button:active .bar-1 {

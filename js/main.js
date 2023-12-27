@@ -1,3 +1,14 @@
+$(window).on("scroll", function() {
+    if($(window).scrollTop() > 1) {
+        $(".scroll").addClass("active");
+        $(".btn-en").addClass("resolt");   
+    } else {
+        $(".scroll").removeClass("active");
+        $(".btn-en").removeClass("resolt");
+    }
+});
+
+
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
     console.log(entry)
